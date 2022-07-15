@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CopilotTheme.iml" filepath="$PROJECT_DIR$/CopilotTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CopilotDarkTheme.iml" filepath="$PROJECT_DIR$/CopilotDarkTheme.iml" />
     </modules>
   </component>
 </project>
