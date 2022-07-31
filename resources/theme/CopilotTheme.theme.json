@@ -8,8 +8,8 @@
     "MainToolbar.inactiveBackground": "#1e1e1f",
     "Navbar.background": "1e1e1f",
     "StatusBar.background": "1e1e1f",
+    "ToolWindow.Button.selectedBackground": "copilot.lighterPurple",
     "*": {
-      "ToolWindow.background": "$toolWindowBackground",
       "//*": "#FF00FF",
       "//background": "#FF0000",
       "//foreground": "#00FF00",
@@ -21,6 +21,7 @@
       "selectionInactiveForeground": "$selectionForegroundInactive",
       "selectionForegroundInactive": "$selectionForegroundInactive"
     },
+
     "Panel": {
       "background": "$toolWindowBackground",
       "foreground": "$regularForeground"
@@ -35,6 +36,7 @@
   "StatusBar": {
     "borderColor": "$border"
   },
+
   "SearchEverywhere": {
     "Header.background": "$panelBackground",
     "Tab": {
@@ -45,7 +47,9 @@
       "background": "$textInputBackgroundDarker",
       "borderColor": "$textInputBackgroundDarker",
       "infoForeground": "$disabledForeground"
+
     },
+
     "List": {
       "separatorForeground": "$mutedForeground",
       "separatorColor": "$border"
@@ -81,10 +85,12 @@
     "underlinedTabBackground": "$toolWindowBackground"
   },
   "ToolWindow": {
+    "background": "$toolWindowBackground",
     "Button": {
-      "selectedBackground": "$selectionBackgroundInactive",
+      "selectedBackground": "#C792EA",
       "selectedForeground": "$regularForeground",
       "hoverBackground": "$tabBackgroundSelected"
+
     },
     "Header": {
       "borderColor": "$border",
@@ -265,6 +271,7 @@
     "matchForeground": "$searchMatchForeground",
     "selectionBackground": "$selectionBackground",
     "selectionInactiveBackground": "$selectionBackground"
+
   },
   "Label": {
     "background": "$panelBackground",
@@ -403,7 +410,8 @@
     "hoverBackground": "$buttonBackgroundDarker",
     "hoverBorderColor": "$buttonBackgroundDarker",
     "pressedBackground": "$buttonBackgroundDarker",
-    "pressedBorderColor": "$buttonBackgroundDarker"
+    "pressedBorderColor": "$buttonBackgroundDarker",
+    "selectedBackground": "copilot.lighterPurple"
   },
   "Table": {
     "background": "$toolWindowBackground",
@@ -423,6 +431,7 @@
     "separatorColor": "$border",
     "bottomSeparatorColor": "$panelBackground"
   },
+
   "ProgressBar": {
     "trackColor": "#242424",
     "progressColor": "#8F8F8FB0",
@@ -544,7 +553,7 @@
     "background.black": "#1a2023",
     "copilot.white": "#ffffff",
     "$selectionBackgroundAccent": "#5c16c5",
-    "$selectionBackground": "#343436",
+    "$selectionBackground": "#444446",
     "$selectionBackgroundInactive": "#2d2d2e",
     "$selectionUnderline": "#89ddff",
     "$selectionUnderlineInactive": "#444445",
@@ -560,8 +569,8 @@
     "$regularForeground": "#dedee3",
     "$mutedForeground": "#b0b0b8",
     "$disabledForeground": "#6d6d70",
-    "$textInputBackground": "#343436",
-    "$textInputBackgroundDarker": "#2d2d2e",
+    "$textInputBackground": "#454547",
+    "$textInputBackgroundDarker": "#2a2a2a",
     "$tabBackgroundSelected": "#2d2d2e",
     "$linkRegular": "#e6e6ea",
     "$linkAccented": "#dedee3",
