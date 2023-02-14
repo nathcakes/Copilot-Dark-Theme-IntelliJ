@@ -1,11 +1,11 @@
-<scheme name="Copilot Theme" version="142" parent_scheme="Darcula">
+<scheme name="Copilot Dark Theme" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-07-14T21:34:11</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2022.2.0.0</property>
-    <property name="modified">2022-07-14T21:34:59</property>
-    <property name="originalScheme">Copilot Theme</property>
+    <property name="created">2023-02-14T16:45:58</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2022.3.2.0.0</property>
+    <property name="modified">2023-02-14T16:46:01</property>
+    <property name="originalScheme">Copilot Dark Theme</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
   <font>
@@ -67,7 +67,7 @@
         <option name="FOREGROUND" value="b189f5" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff6a80" />
@@ -312,6 +312,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="HTML_CODE">
+      <value />
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="548af7" />
@@ -383,6 +386,14 @@
         <option name="BACKGROUND" value="2f4246" />
       </value>
     </option>
+    <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL">
+      <value />
+    </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
         <option name="FOREGROUND" value="375239" />
@@ -419,7 +430,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="43454a" />
+        <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -465,7 +476,7 @@
         <option name="ERROR_STRIPE_COLOR" value="72cfd6" />
       </value>
     </option>
-    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b189f5" />
@@ -526,7 +537,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="TYPO">
       <value>
         <option name="EFFECT_COLOR" value="7ec482" />

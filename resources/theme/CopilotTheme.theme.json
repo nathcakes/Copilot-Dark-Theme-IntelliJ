@@ -2,7 +2,7 @@
   "name": "CopilotTheme",
   "author": "Nate Brown",
   "dark": true,
-  "editorScheme": "/Copilot_Editor_Theme.xml",
+  "editorScheme": "/Copilot_Dark_Theme.xml",
   "ui": {
     "MainToolbar.background": "#1e1e1f",
     "MainToolbar.inactiveBackground": "#1e1e1f",
