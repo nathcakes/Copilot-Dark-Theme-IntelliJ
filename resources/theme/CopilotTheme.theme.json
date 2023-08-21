@@ -6,9 +6,10 @@
   "ui": {
     "MainToolbar.background": "#1e1e1f",
     "MainToolbar.inactiveBackground": "#1e1e1f",
-    "Navbar.background": "1e1e1f",
-    "StatusBar.background": "1e1e1f",
+    "Navbar.background": "#1e1e1f",
+    "StatusBar.background": "#1e1e1f",
     "ToolWindow.Button.selectedBackground": "copilot.lighterPurple",
+    "Editor.background": "#1e1e1f",
     "Editor.SearchField.background": "#232328",
     "*": {
       "//*": "#FF00FF",
@@ -61,8 +62,8 @@
     }
   },
   "SearchMatch": {
-    "startBackground": "$panelBackground",
-    "endBackground": "$panelBackground"
+    "startBackground": "copilot.lighterPurple",
+    "endBackground": "copilot.lighterPurple"
 
   },
   "SpeedSearch": {
@@ -89,7 +90,7 @@
   "ToolWindow": {
     "background": "$toolWindowBackground",
     "Button": {
-      "selectedBackground": "#C792EA",
+      "selectedBackground": "$selectionBackground",
       "selectedForeground": "$regularForeground",
       "hoverBackground": "$tabBackgroundSelected"
 
@@ -227,7 +228,7 @@
       "inactiveBackground": "$panelBackground"
     },
     "Toolbar": {
-      "background": "#232328",
+      "background": "#343435",
       "borderColor": "$panelBackground"
     },
     "Advertiser": {
@@ -237,7 +238,6 @@
     }
   },
   "MenuBar": {
-    "background": "$toolWindowBackground",
     "foreground": "$regularForeground",
     "borderColor": "$panelBackground",
     "disabledBackground": "$panelBackground",
@@ -461,8 +461,7 @@
   "Editor": {
     "background": "$toolWindowBackground",
     "foreground": "$regularForeground",
-    "shortcutForeground": "$linkRegular",
-    "SearchField.background": "#262626"
+    "shortcutForeground": "$linkRegular"
   },
   "FileColor": {
     "Rose": "#251b1c",
