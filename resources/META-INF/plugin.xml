@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>CopilotDarkTheme</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -18,17 +18,17 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Theme inspired by the original colours of the GitHub Copilot website. This theme was initially inspired by Benjamin Benais Copilot theme in VS Code but I have adjusted colours to be more vibrant and higher contract and is unrelated to that project.<br>
+    Theme inspired by the original colours of the GitHub Copilot website. This theme was initially inspired by Benjamin Benais Copilot theme in VS Code, but I have adjusted colours to be more vibrant and higher contract and is unrelated to that project.<br>
     <br>
-    Currently I've only designed and customized colours for working with Typescript and Javascript. I will be updating the plugin for Java (although I do use the current state in Java without too many issues) & C in the future. Please feel free to suggest colours or open a PR in the Github for other languages or change in color scheme suggestions.
+    Currently, I've only designed and customized colours for working with Typescript and Javascript, however other languages still look good by default! Please feel free to suggest colours or open a PR in the GitHub for other languages or change in color scheme suggestions.
   ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-    Bugfix: Updated the background color for Search Everywhere text mathces to be more readable.
-    Scheme Change: Updated the highlight color of your selected tab to a more neutral gray.
-    Feedback is always appreciated on the Github Repo as an issue or comments on the plugin page.
+    Sorry it's been so long since an update!
+    Bugfix: Addresses the error that pops up when your open the IDE, preventing tooltips from opening and Rider functionality.
+    Feedback is always appreciated on the GitHub Repo as an issue or comments on the plugin page.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
